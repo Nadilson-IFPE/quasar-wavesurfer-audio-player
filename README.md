@@ -4,9 +4,11 @@ Um reprodutor de áudio semelhante ao soundcloud usando Quasar e Wavesurfer
 
 A soundcloud-like audio player using Quasar and Wavesurfer
 
+![Cool Player screenshots](Cool_Player.png)
+
 ## Descrição em português
 
-App criado seguindo o tutorial intitulado "How to build a SoundCloud-like audio player app with VueJS, Quasar and WaveSurfer", disponível neste endereço: https://www.learningsomethingnew.com/how-to-build-a-sound- cloud-like-audio-player-app-with-vue-js-quasar-and-wave-surfer.
+App criado seguindo o tutorial intitulado "How to build a SoundCloud-like audio player app with VueJS, Quasar and WaveSurfer", disponível neste endereço: https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-player-app-with-vue-js-quasar-and-wave-surfer.
 
 Quasar é uma estrutura de interface do usuário construída em Vue.js.
 
@@ -16,7 +18,7 @@ Imagem de fundo foi adaptada de arquivo obtido no seguinte endereço: https://ww
 
 ## Description in English
 
-App created following the tutorial entitled "How to build a SoundCloud-like audio player app with VueJS, Quasar and WaveSurfer", available at this address: https://www.learningsomethingnew.com/how-to-build-a-sound- cloud -like-audio-player-app-with-vue-js-quasar-and-wave-surfer.
+App created following the tutorial entitled "How to build a SoundCloud-like audio player app with VueJS, Quasar and WaveSurfer", available at this address: https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-player-app-with-vue-js-quasar-and-wave-surfer.
 
 Quasar is a UI framework built on Vue.js.
 
