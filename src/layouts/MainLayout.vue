@@ -2,14 +2,14 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
+        <!-- <q-btn
           flat
           dense
           round
           icon="menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
-        />
+        /> -->
 
         <q-toolbar-title> Cool Player </q-toolbar-title>
 
@@ -18,6 +18,7 @@
         <q-btn color="white" text-color="primary">
           Abrir arquivo
           <input
+            id="fileInput"
             type="file"
             class="q-uploader__input overflow-hidden absolute-full"
             v-on:change="fileChosen"
@@ -28,7 +29,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <!-- <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <q-item-label header> Essential Links </q-item-label>
 
@@ -38,7 +39,7 @@
           v-bind="link"
         />
       </q-list>
-    </q-drawer>
+    </q-drawer> -->
 
     <q-page-container>
       <router-view />
@@ -48,7 +49,7 @@
 
 <script>
 import { defineComponent, ref } from "vue";
-import EssentialLink from "components/EssentialLink.vue";
+//import EssentialLink from "components/EssentialLink.vue";
 import eventBus from "src/services/event-bus";
 
 const linksList = [
@@ -100,7 +101,7 @@ export default defineComponent({
   name: "MainLayout",
 
   components: {
-    EssentialLink,
+    // EssentialLink,
   },
 
   methods: {
@@ -110,7 +111,7 @@ export default defineComponent({
     },
   },
 
-  setup() {
+  /* setup() {
     const leftDrawerOpen = ref(false);
 
     return {
@@ -120,6 +121,6 @@ export default defineComponent({
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
     };
-  },
+  }, */
 });
 </script>

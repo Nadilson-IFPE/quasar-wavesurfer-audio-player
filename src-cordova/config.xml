@@ -12,4 +12,5 @@
     <platform name="ios">
         <preference name="ScrollEnabled" value="true" />
     </platform>
+    <preference name="Orientation" value="portrait" />
 </widget>
