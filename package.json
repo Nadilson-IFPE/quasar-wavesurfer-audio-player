@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A soundcloud-like audio player using quasar and wavesurfer",
   "productName": "Cool Player by Nadilson",
+  "cordovaID": "com.nadilson.quasarapp",
   "author": "Nadilson <nadilson@protonmail.com>",
   "private": true,
   "scripts": {
@@ -15,6 +16,7 @@
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
     "quasar": "^2.6.0",
+    "tiny-emitter": "^2.1.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0",
     "wavesurfer.js": "^6.4.0"
