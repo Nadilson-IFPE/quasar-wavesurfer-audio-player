@@ -1,8 +1,8 @@
 # Cool Player by Nadilson (quasar-wavesurfer-audio-player)
 
-Um reprodutor de áudio semelhante ao soundcloud usando Quasar e Wavesurfer
+Um reprodutor de áudio semelhante ao SoundCloud usando Quasar e Wavesurfer.
 
-A soundcloud-like audio player using Quasar and Wavesurfer
+A SoundCloud-like audio player using Quasar and Wavesurfer.
 
 ![Cool Player screenshots](Cool_Player.png)
 
@@ -52,6 +52,14 @@ quasar dev
 quasar dev -m android
 ```
 
+### Para executar o aplicativo no iOS (celular deve estar conectado ao PC via USB)
+
+## Run the app on iOS (mobile device must be connected to PC via USB)
+
+```bash
+quasar dev -m ios
+```
+
 ### Para analisar os arquivos (busca por erros)
 
 ### Lint the files (search for errors)
@@ -85,4 +93,17 @@ quasar build
 ### Customize the configuration
 
 Consulte [Configurando o quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+### 😊 Encontre-me
+
+### 😊 Find me
+
+<p align="center">
+<a href="https://nadportfolio.vercel.app/"><img src="https://img.shields.io/badge/-Site%20pessoal%20de%20Nadilson-blue?style=flat&logo=Next.js&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/nadilson-teixeira/"><img src="https://img.shields.io/badge/-Nadilson-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:nadilson.ads@gmail.com"><img src="https://img.shields.io/badge/-Nadilson-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://instagram.com/nadilsondev"><img src="https://img.shields.io/badge/-@nadilsondev-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://twitter.com/nadilsondev"><img src="https://img.shields.io/badge/-@nadilsondev-blue?style=flat&logo=Twitter&logoColor=white"/></a>
+</p>

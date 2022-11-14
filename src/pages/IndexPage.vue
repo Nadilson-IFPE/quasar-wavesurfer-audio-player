@@ -14,7 +14,7 @@
           </div>
         </div>
 
-        <p class="textoLink">
+        <!-- <p class="textoLink">
           Imagem por:
           <a
             href="https://www.freepik.com/free-vector/indie-music-festival-banner-template_14568719.htm"
@@ -22,7 +22,7 @@
             >Freepik</a
           >
           (clique para visitar)
-        </p>
+        </p> -->
       </div>
     </div>
 
@@ -39,7 +39,7 @@
             <p class="arquivo">{{ tamanhoArquivo }}</p>
           </div>
         </div>
-        <p class="textoLink">
+        <!-- <p class="textoLink">
           Imagem por:
           <a
             href="https://www.freepik.com/free-vector/indie-music-festival-banner-template_14568719.htm"
@@ -47,7 +47,7 @@
             >Freepik</a
           >
           (clique para visitar)
-        </p>
+        </p> -->
       </div>
     </div>
 

@@ -1,7 +1,7 @@
 {
   "name": "quasar-wavesurfer-audio-player",
-  "version": "0.0.1",
-  "description": "A soundcloud-like audio player using quasar and wavesurfer",
+  "version": "1.0.0",
+  "description": "A SoundCloud-like audio player using Quasar and Wavesurfer",
   "productName": "Cool Player by Nadilson",
   "cordovaID": "com.nadilson.quasarapp",
   "author": "Nadilson <nadilson@protonmail.com>",
@@ -9,7 +9,9 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "cordova:dev": "quasar dev -m cordova -T android -- --buildConfig=\"../build.cordova.json\"",
+    "cordova:build": "quasar build -m cordova -T android -- --buildConfig=\"../build.cordova.json\""
   },
   "dependencies": {
     "@awesome-cordova-plugins/ionic-webview": "^6.2.0",
